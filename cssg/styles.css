@@ -1,11 +1,55 @@
-
-h1 {
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  h1 {
     color: green;
-
-}
-
-
-.blue-text {
-    color: blue
-}
-
+  }
+  
+  .blue-text {
+    color: blue;
+  }
+  
+  .red-text {
+    color: red;
+  }
+  
+  .container {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+  }
+  
+  .hero {
+    border: 2px solid blue;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+  }
+  
+  .left-box {
+    border: 2px solid green;
+    height: 100%;
+    width: 45%;
+  }
+  
+  .right-box {
+    border: 2px solid green;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+  }
