@@ -74,7 +74,7 @@ def draw_score():
     player_score_text = font.render(str(player_score), True, light_grey)
     opponent_score_text = font.render(str(opponent_score), True, light_grey)
     screen.blit(player_score_text, (screen_width / 2 + 20, 20))
-    screen.blit(opponent_score_text, (screen_width / 2 - 60, 20))
+    screen.blit(opponent_score_text, (screen_width / 2 - 45, 20))
 
 clock = pygame.time.Clock()
 
